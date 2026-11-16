@@ -1,0 +1,22 @@
+BARBEARIA PRO — SITE DE VENDAS (HTML + CSS + Bootstrap)
+
+ESTRUTURA
+  index.html            -> a página toda
+  assets/css/style.css  -> cores e estilos
+  assets/img/           -> imagens da planilha (WebP, leves)
+  Tipo de letra: Poppins (Google Fonts, carrega do index.html)
+
+COMO PUBLICAR NA VERCEL
+  Opção A (linha de comandos): abre a pasta no terminal e corre:  npx vercel --prod
+  Opção B (GitHub): põe esta pasta num repositório e importa-o em vercel.com/new
+  Não precisa de build. Framework Preset: "Other". Output Directory: deixa vazio.
+
+COMO EDITAR
+  - Link do checkout: procura  pay.kursinha.com  em index.html (aparece em 4 botões (o botão do topo leva à secção de planos))
+    e troca pelo novo link se mudar.
+  - Preço: procura  5.990  em index.html (aparece em vários textos).
+  - Cores: no topo de assets/css/style.css (:root).
+  - Secção "QUEM ESTÁ A UTILIZAR?": está pronta mas desligada (comentada) no index.html.
+    Põe capturas de clientes reais em assets/img/ (prova-1.webp, prova-2.webp) e apaga o comentário.
+  - Garantia de 7 dias: se não fores aplicar, apaga a secção "7. GARANTIA" e a
+    frase "Garantia de 7 dias" por baixo do botão do topo.
