@@ -97,3 +97,33 @@ h1,h2,h3{font-family:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,Arial,s
 
 .lifetime{display:inline-block;background:#fff;border:2px solid var(--green);color:#166534;border-radius:14px;padding:.55rem 1rem;margin:0 auto 1.6rem;font-size:.95rem;box-shadow:0 8px 18px -10px rgba(22,163,74,.5)}
 .lifetime i{color:var(--green);font-size:1.15rem;vertical-align:-2px}
+
+/* MOCKUP DO HERO (só percentagens, para funcionar em telemóveis antigos) */
+.mock{position:relative;width:100%;max-width:780px;margin:0 auto;padding-top:75%}
+.mock img{display:block;width:100%;height:auto}
+.m-laptop{position:absolute;left:14%;top:2%;width:72%;z-index:2}
+.m-screen{position:relative;width:100%;padding-top:62.5%;background:#0f1320;border:5px solid #1b2133;border-bottom-width:6px;border-radius:10px 10px 2px 2px;overflow:hidden;box-sizing:border-box;box-shadow:0 22px 40px -14px rgba(20,33,61,.55)}
+.m-screen img{position:absolute;left:0;top:0;width:100%;height:100%;object-fit:cover;object-position:top}
+.m-base{position:relative;left:-5%;width:110%;height:0;padding-top:2.6%;background:linear-gradient(180deg,#d9dee8,#9aa3b4);border-radius:0 0 14px 14px;box-shadow:0 14px 22px -10px rgba(20,33,61,.5)}
+.m-base::after{content:"";position:absolute;left:42%;top:0;width:16%;height:38%;background:#b6bdcb;border-radius:0 0 8px 8px}
+.m-phone{position:absolute;left:80%;top:27%;width:18%;z-index:6;transform:rotate(3deg)}
+.m-pscreen{position:relative;width:100%;padding-top:205%;background:#0b0d14;border:5px solid #0b0d14;border-radius:18px;overflow:hidden;box-sizing:border-box;box-shadow:0 20px 34px -10px rgba(20,33,61,.65)}
+.m-pscreen img{position:absolute;left:0;top:0;width:100%;height:100%;object-fit:cover;object-position:top}
+.m-pscreen::after{content:"";position:absolute;left:34%;top:1.2%;width:32%;height:2.4%;background:#0b0d14;border-radius:99px}
+.m-sheet{position:absolute;margin:0;background:#fff;border:1px solid #E2E8F0;border-radius:8px;box-shadow:0 14px 26px -10px rgba(20,33,61,.5);z-index:4}
+.m-sheet img{border-radius:7px}
+.m-sheet .tag{position:absolute;top:-10px;left:10px;z-index:2;background:var(--orange);color:#fff;font-weight:700;font-size:11px;letter-spacing:.02em;padding:2px 9px;border-radius:999px;line-height:1.5;box-shadow:0 4px 10px -4px rgba(249,115,22,.7)}
+.s-caixa{left:1%;top:63%;width:46%;transform:rotate(-3deg)}
+.s-agenda{left:4%;top:82%;width:42%;transform:rotate(2deg);z-index:5}
+.s-comis{left:49%;top:66%;width:40%;transform:rotate(2deg)}
+.s-stock{left:52%;top:87%;width:38%;transform:rotate(-2deg);z-index:5}
+@media (max-width:420px){.m-screen{border-width:3px}.m-pscreen{border-width:3px;border-radius:12px}.m-sheet .tag{font-size:9px;top:-8px;padding:1px 7px}}
+
+/* como funciona */
+.step{position:relative;background:#fff;border:1px solid #E5EAF1;border-radius:16px;padding:1.9rem 1.2rem 1.3rem;height:100%;text-align:center;box-shadow:0 6px 16px -10px rgba(20,33,61,.25)}
+.step .num{position:absolute;top:-18px;left:50%;transform:translateX(-50%);width:38px;height:38px;border-radius:50%;background:var(--orange);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 14px -4px rgba(249,115,22,.6)}
+.step h3{font-size:1.05rem;font-weight:700;margin-bottom:.35rem}
+.step p{margin:0;color:var(--muted);font-size:.9rem}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin-top:1.6rem}
+.chips span{background:var(--orange-soft);color:#7C2D12;font-size:.8rem;font-weight:500;padding:.4rem .8rem;border-radius:999px}
+.chips i{color:var(--orange);margin-right:.25rem}
