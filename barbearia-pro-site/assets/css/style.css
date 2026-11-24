@@ -127,3 +127,14 @@ h1,h2,h3{font-family:'Poppins',system-ui,-apple-system,'Segoe UI',Roboto,Arial,s
 .chips{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;margin-top:1.6rem}
 .chips span{background:var(--orange-soft);color:#7C2D12;font-size:.8rem;font-weight:500;padding:.4rem .8rem;border-radius:999px}
 .chips i{color:var(--orange);margin-right:.25rem}
+
+/* caixa de pagamento seguro */
+.paybox{background:#F0FDF4;border:1px solid #BBF7D0;border-radius:14px;padding:.9rem 1rem 1rem;margin:0 0 1.1rem}
+.paybox-title{font-weight:700;color:#166534;margin:0 0 .4rem;font-size:.95rem}
+.paybox-title i{margin-right:.25rem}
+.paybox ul{margin:0 0 .7rem;padding-left:1.1rem;font-size:.88rem;color:#374151}
+.paybox li{margin-bottom:.25rem}
+.btn-whats{background:#fff;color:#128C4A;border:2px solid #25D366;font-weight:600;border-radius:999px}
+.btn-whats:hover,.btn-whats:focus{background:#25D366;color:#fff}
+.foot-wa{color:#86EFAC;text-decoration:none;font-weight:500}
+.foot-wa:hover{color:#fff}

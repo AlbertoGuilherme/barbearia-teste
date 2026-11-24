@@ -3,7 +3,8 @@ BARBEARIA PRO — SITE DE VENDAS (HTML + CSS + Bootstrap)
 ESTRUTURA
   index.html            -> a página toda
   assets/css/style.css  -> cores e estilos
-  assets/img/           -> imagens da planilha (WebP, leves)
+  assets/img/           -> imagens da planilha (WebP, leves). O mockup do topo usa:
+                           painel, telemovel, caixa, agenda, comissoes, stock
   Tipo de letra: Poppins (Google Fonts, carrega do index.html)
 
 COMO PUBLICAR NA VERCEL
@@ -14,6 +15,7 @@ COMO PUBLICAR NA VERCEL
 COMO EDITAR
   - Link do checkout: procura  pay.kursinha.com  em index.html (aparece em 4 botões (o botão do topo leva à secção de planos))
     e troca pelo novo link se mudar.
+  - WhatsApp: o número 244952810513 aparece em 2 links (caixa de pagamento e rodapé). Troca nos dois se mudares de número.
   - Preço: procura  5.990  em index.html (aparece em vários textos).
   - Cores: no topo de assets/css/style.css (:root).
   - Secção "QUEM ESTÁ A UTILIZAR?": está pronta mas desligada (comentada) no index.html.
